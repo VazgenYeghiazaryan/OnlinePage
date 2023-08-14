@@ -1,0 +1,105 @@
+body{
+    background-color: hsl(209, 41%, 88%);
+    border: 3px dashed;
+}
+h1{ 
+    color: black;
+}
+.p1{
+    color: tomato;
+}
+
+#p2{
+    color: azure;
+}
+
+h2{
+    font-family: sans-serif, verdana;
+} 
+
+p2{ 
+    font-family: "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+.h3{
+    border: 3px solid rgb(230, 207, 155);
+    border-radius: 20px;
+}
+.p3{
+    border-bottom: 3px solid royalblue;
+    border-top: 3px solid;
+    border-left: 3px dotted orange;
+    border-radius: 15;
+
+}
+
+.h4{ 
+    text-shadow: 3px 3px 5px purple, -3px -3px 5px rgb(13, 17, 232);
+    color: black;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(125, 141, 135);
+    box-shadow: 3px 3px 5px;
+}
+.h5{
+    margin-left: 33px;
+}
+.p5{
+    margin-left: 15px;
+}
+.img1{
+    float: right;
+    margin-right: 10px;
+}
+.img2{
+    float: left;
+    margin-right: 10px;
+}
+
+.div2{
+    border: 2px solid; 
+    height: 75px;
+    overflow: auto;
+}
+
+.div3{
+    background-color: rgb(243, 216, 216);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+.span1{
+    background-color:rgb(221, 201, 201);
+     width: 100px;
+    height: 100px;
+     display:block;
+}
+
+.box{
+    border: 2px solid;
+    width: 50%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#id1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    color: aliceblue;
+}
+#id2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(137, 137, 187);
+    position: absolute;
+    color: aliceblue;
+}
